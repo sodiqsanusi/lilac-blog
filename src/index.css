@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  color: #b2b3b4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b2b3b4;
+  padding: 1em 2em;
+}
+.navbar h2{
+  font-size: 3rem;
+  color: black;
+}
+.navbar ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  margin: 0 .5em;
+}
+a:hover,
+a:focus{
+  color: #f1356d;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.home{
+  max-width: 70%;
+  color: black;
+  margin: 0 auto;
+}
+.blog-preview{
+  background-color: #b2b3b4;
+  padding: 1em;
+  margin: .5em;
+}
+.blog-preview:hover,
+.blog-preview:focus{
+  cursor:pointer;
+  background-color: darkgrey;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px #111;
+}
+
+.body h2{
+  color: #b2b3b4;
+}
+
+.blog-details{
+  margin: 0 1em;
+  padding: 2em;
+  color: #b2b3b4;
+}
+.blog-details h2{
+  color: #f1356d;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.new-blog{
+  padding: 2em 25%;
+  text-align: center;
+}
+.new-blog label{
+  text-align: left;
+  display: block;
+}
+
+.new-blog h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+
+.new-blog input, .new-blog textarea, .new-blog select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  display: block;
+  box-sizing: border-box;
+}
+
+.new-blog button,
+.blog-details button,
+.not-found button{
+  background: #f1356d;
+  color: white;
+  border: none;
+  padding: 1em 5em;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.not-found{
+  padding: 2em;
+  text-align: center;
+}
+
+.new-blog button:hover, .new-blog button:focus,
+.blog-details button:hover, .blog-details button:focus,
+.not-found button:focus,
+.not-found button:hover{
+  background: #100;
+  color: #f1356d;
+}
